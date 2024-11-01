@@ -1,21 +1,25 @@
 # <div align="center"> typerr</div>
 
-## Description
-A place to test and hone your touch typing skill.
+## 📄 Description
+ A place to test 🧪 and hone your touch typing skill.
 
-## Development Status
-🚧 This project is currently in the build phase and is under active development. 🚧
+## 🚧 Development Status
+ This project is currently in the build phase and is under active development.
 
-## Features
+## 🎉 Features
 - random text 
 - live score and accuracy
+- time limit
 
-
-## Upcoming Feateures
+## 📢Upcoming Feateures
 - random text generation api inclusion
-- 
 
-## Contribution
+## 🛠️ Tools
+- HTML
+- CSS
+- JavaScript
+
+## 🤝 Contribution
 Want to contribute to this project? Feel free to join :)
 <!--
 ```bash
