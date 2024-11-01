@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typerr: test your typing speed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <h1>Test Your Typing Speed</h1>
+        </header>
+        <main>
+            <div class="settings">
+                <label for="time-limit">Select Time Limit:</label>
+                <select id="time-limit">
+                    <option value="15">15 seconds</option>
+                    <option value="30">30 seconds</option>
+                    <option value="60">60 seconds</option>
+                </select>
+            </div>
+
+            <div id="test-area">
+                <div id="text-display"></div>
+                <textarea id="text-input" placeholder="start typing here..."></textarea>
+            </div>
+
+            <div class="progress-bar" id="progress-bar"></div>
+
+            <div class="results" id="results">
+                <p><span>Time Remaining:</span> <span id="time">15</span>s</p>
+                <p><span>Words per Minute (WPM): </span> <span id="wpm">0</span></p>
+                <p><span>Accuracy:</span> <span id="accuracy">100%</span></p>
+            </div>
+
+            <div id="leaderboard">
+                <h2>Your Best Result</h2>
+                <p id="best-wpm">Best WPM: <span>0</span></p>
+                <p id="best-accuracy">Best Accuracy: <span>0%</span></p>
+            </div>
+
+            <button id="restart-btn">Restart</button>
+        </main>
+    </div>
+</body>
+
+</html>
